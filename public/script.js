@@ -7,7 +7,6 @@ function submitFeedback() {
 
     error.innerText = "";
 
-    // VALIDATION
     if (!name) {
         error.innerText = "⚠ Name is required";
         return;
@@ -28,7 +27,6 @@ function submitFeedback() {
         return;
     }
 
-    // API CALL
     fetch("/feedback", {
         method: "POST",
         headers: {
@@ -40,7 +38,6 @@ function submitFeedback() {
     .then(msg => {
         alert(msg);
 
-        // CLEAR FORM
         document.getElementById("name").value = "";
         document.getElementById("email").value = "";
         document.getElementById("message").value = "";
