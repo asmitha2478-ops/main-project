@@ -10,12 +10,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// ✅ Force load index.html
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/index.html");
 });
 
-// Optional: still serve other files (CSS, JS)
 app.use(express.static(path.join(__dirname, "public")));
 
 app.post("/feedback", async (req, res) => {
