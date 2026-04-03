@@ -21,7 +21,6 @@ background:#0f172a;
 color:rgb(255, 255, 255);
 }
 
-/* NAVBAR */
 .navbar{
 position:sticky;
 top:0;
@@ -42,7 +41,6 @@ text-decoration:none;
 color:white;
 }
 
-/* HOME FULL PAGE */
 .home{
 height:100vh;
 display:flex;
@@ -55,19 +53,16 @@ font-size: larger;
 text-shadow: #4c6192;
 }
 
-/* SECTIONS */
 .section{
 padding:80px 60px;
 }
 
-/* TITLES */
 .title{
 text-align:center;
 margin-bottom:40px;
 font-size:28px;
 }
 
-/* ABOUT */
 .about-text{
 text-align:center;
 max-width:700px;
@@ -75,7 +70,6 @@ margin:auto;
 font-size: x-large;
 }
 
-/* GRID */
 .grid{
 display:flex;
 gap:30px;
@@ -83,7 +77,6 @@ flex-wrap:wrap;
 margin-top:20px;
 }
 
-/* CARDS */
 .card{
 flex:1;
 min-width:250px;
@@ -97,18 +90,15 @@ transition:0.3s;
 transform:scale(1.05);
 }
 
-/* CENTER TEXT */
 .center{
 text-align:center;
 }
 
-/* TESTIMONIAL */
 .testimonial{
 font-size:22px;
 text-align:center;
 }
 
-/* FORM */
 .form{
 max-width:500px;
 margin:auto;
@@ -130,7 +120,6 @@ resize:none;
 height:120px;
 }
 
-/* BUTTON */
 button{
 padding:12px;
 border:none;
@@ -140,13 +129,11 @@ color:white;
 cursor:pointer;
 }
 
-/* ERROR */
 .error{
 color:red;
 font-size:14px;
 }
 
-/* FOOTER */
 footer{
 text-align:center;
 padding:20px;
